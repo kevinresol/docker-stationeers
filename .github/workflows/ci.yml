@@ -2,8 +2,6 @@ name: CI
 
 on:
   push:
-    branches: [ "server-rewrite" ]
-  workflow_dispatch:
 
 jobs:
   docker:
